@@ -57,7 +57,7 @@ function App() {
 
         </div>
 
-        {/* <div className="top">
+        <div className="top">
           <div className="location">
             <p>Latitude: {data.latitude}</p>
             <p>Longitude: {data.longitude}</p>
@@ -68,7 +68,7 @@ function App() {
           <div className="description">
             {data.current_weather ? <p>{data.current_weather.windspeed}</p> : null}
           </div>
-        </div> */}
+        </div>
 
         <div className="bottom">
           <div className="feels">
