@@ -59,8 +59,8 @@ function App() {
 
         <div className="top">
           <div className="location">
-            <p>Latitude: {data.latitude}</p>
-            <p>Longitude: {data.longitude}</p>
+            <p> {data.latitude}</p>
+            <p> {data.longitude}</p>
           </div>
           <div className="temp">
             {data.current_weather ? <h1>{data.current_weather.temperature.toFixed()}°C</h1> : null}
