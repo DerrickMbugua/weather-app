@@ -52,23 +52,23 @@ function App() {
               placeholder='Enter Longitude'
               type="text" />
             {/* <input type="submit" value="Submit" /> */}
-            <button>Submit</button>
+            <button>Search</button>
           </form>
 
         </div>
 
-        <div className="top">
+        {/* <div className="top">
           <div className="location">
             <p>Latitude: {data.latitude}</p>
             <p>Longitude: {data.longitude}</p>
           </div>
           <div className="temp">
-            {data.current_weather ? <h1>{data.current_weather.temperature.toFixed()}°F</h1> : null}
+            {data.current_weather ? <h1>{data.current_weather.temperature.toFixed()}°C</h1> : null}
           </div>
           <div className="description">
             {data.current_weather ? <p>{data.current_weather.windspeed}</p> : null}
           </div>
-        </div>
+        </div> */}
 
         <div className="bottom">
           <div className="feels">
